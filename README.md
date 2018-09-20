@@ -36,6 +36,11 @@ The package is based on the dependency list of the original Node 6 image, whith 
 >  A framework for building GitHub Apps to automate and improve your workflow.
 
 
+### dotenv@6.0.0 | BSD-2-Clause | deps: none | versions: 30
+
+> Loads environment variables from .env file
+
+
 #### `"async": "^2.1.4"`
 
 > Async is a utility module which provides straight-forward, powerful functions for working with asynchronous JavaScript. Although originally designed for use with Node.js and installable via npm install --save async, it can also be used directly in the browser.
