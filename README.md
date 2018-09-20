@@ -26,7 +26,12 @@ The package is based on the dependency list of the original Node 6 image, whith 
 
 ### Updated Dependencies
 
-#### `"probot": "^7.1.1"`
+#### `"probot": "^7.1.2"`
+
+>  A framework for building GitHub Apps to automate and improve your workflow.
+
+
+#### `"probot-commands": "^1.1.0"`
 
 >  A framework for building GitHub Apps to automate and improve your workflow.
 
