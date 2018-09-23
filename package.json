@@ -51,6 +51,7 @@
     "mocha": "^5.2.0"
   },
   "scripts": {
-    "test": "mocha --grep DEPLOYED"
+    "test": "mocha --grep DEPLOYED",
+    "build": "./build.sh && node generate.js"
   }
 }
