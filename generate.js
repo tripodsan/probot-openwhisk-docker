@@ -16,7 +16,7 @@ async function npmLs() {
 }
 async function run() {
   const ls = await npmLs();
-  let out = '### Dependencies\n\n\n';
+  let out = '### Dependencies\n<!-- the list below is automatically generated during the build -->\n\n';
   Object.keys(ls.dependencies).forEach((name) => {
     const dep = ls.dependencies[name];
     out += `### ${name}@${dep.version}\n`;

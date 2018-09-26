@@ -1,15 +1,27 @@
-# Custom Docker Images for OpenWhisk
+# Custom Docker Image for OpenWhisk abd Probot
 
-OpenWhisk comes with a one megabyte limit for function ZIP files. This can be a too harsh limit for many practical purposes. In addition, the Node 6 action comes with a long list of pre-packaged depdendencies, including some of the most popular NPM packages. The newer Node 8 action does not include any pre-packaged dependencies, which means we are forced to trade-off between using a modern Node version or having access to useful packages.
+OpenWhisk comes with a one megabyte limit for function ZIP files. This can be a too harsh limit for 
+many practical purposes. In addition, the Node 6 action comes with a long list of pre-packaged depdendencies, 
+including some of the most popular NPM packages. The newer Node 8 action does not include any 
+pre-packaged dependencies, which means we are forced to trade-off between using a modern Node version 
+having access to useful packages.
 
-Fortunately, OpenWhisk also supports the creation of custom Docker images, so we can circumvent this trade-off by creating a Docker image that has exactly the dependencies pre-installed that we need, without any of the stuff we don't need.
+Fortunately, OpenWhisk also supports the creation of custom Docker images, so we can circumvent this 
+trade-off by creating a Docker image that has exactly the dependencies pre-installed that we need, 
+without any of the stuff we don't need.
+
+## Probot Support
+
+This docker image contains packages used to run a  [Github ProBot](https://probot.github.io) application
+as openwhisk action.
 
 ## Building it
 
-Make sure you have Docker installed and are logged in to Docker Hub. The image is published under the `trieloff` namespace.
+Make sure you have Docker installed and are logged in to Docker Hub. The image is published under the `tripodsan` namespace
+and tagged with `tripodsan/probot-ow-nodejs8:latest`
 
 ```bash
-$ ./build.sh
+$ npm run build
 ```
 
 ## Testing it
@@ -18,14 +30,10 @@ Once the function has been deployed, it can be tested using `npm test`
 
 ## What's included
 
-The package is based on the dependency list of the original Node 6 image, whith a number of modifications:
-
-* updated dependencies to the newest version
-* removed deprecated and useless dependencies
-* added dependencies that are specific to Project Helix
+The package is based on the dependency list of the original Node 6 image, with some additions
 
 ### Dependencies
-
+<!-- the list below is automatically generated during the build -->
 
 ### async@2.6.1
 
@@ -87,6 +95,12 @@ The package is based on the dependency list of the original Node 6 image, whith 
 > [homepage](https://github.com/ashtuchkin/iconv-lite)
 
 
+### js-yaml@3.12.0
+
+> YAML 1.2 parser and serializer
+> [homepage](https://github.com/nodeca/js-yaml)
+
+
 ### lodash@4.17.10
 
 > Lodash modular utilities.
@@ -127,6 +141,12 @@ The package is based on the dependency list of the original Node 6 image, whith 
 
 > Complete, compliant and well tested module for implementing an OAuth2 Server/Provider with express in node.js
 > [homepage](https://github.com/thomseddon/node-oauth2-server#readme)
+
+
+### openpgp@4.0.2
+
+> OpenPGP.js is a Javascript implementation of the OpenPGP protocol. This is defined in RFC 4880.
+> [homepage](https://openpgpjs.org/)
 
 
 ### openwhisk@3.17.0
