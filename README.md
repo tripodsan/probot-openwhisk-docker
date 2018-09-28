@@ -41,6 +41,12 @@ The package is based on the dependency list of the original Node 6 image, with s
 > [homepage](https://caolan.github.io/async/)
 
 
+### axios@0.18.0
+
+> Promise based HTTP client for the browser and node.js
+> [homepage](https://github.com/axios/axios)
+
+
 ### body-parser@1.18.2
 
 > Node.js body parsing middleware
@@ -161,7 +167,7 @@ The package is based on the dependency list of the original Node 6 image, with s
 > [homepage](https://github.com/parcel-bundler/parcel#readme)
 
 
-### probot@7.1.2
+### probot@7.2.0
 
 > 🤖 A framework for building GitHub Apps to automate and improve your workflow
 > [homepage](https://probot.github.io)
