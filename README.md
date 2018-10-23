@@ -35,6 +35,12 @@ The package is based on the dependency list of the original Node 6 image, with s
 ### Dependencies
 <!-- the list below is automatically generated during the build -->
 
+### @tripod/openpgp@4.1.2
+
+> OpenPGP.js is a Javascript implementation of the OpenPGP protocol. This is defined in RFC 4880.
+> [homepage](https://openpgpjs.org/)
+
+
 ### async@2.6.1
 
 > Higher-order functions and common patterns for asynchronous code
@@ -147,12 +153,6 @@ The package is based on the dependency list of the original Node 6 image, with s
 
 > Complete, compliant and well tested module for implementing an OAuth2 Server/Provider with express in node.js
 > [homepage](https://github.com/thomseddon/node-oauth2-server#readme)
-
-
-### openpgp@4.0.2
-
-> OpenPGP.js is a Javascript implementation of the OpenPGP protocol. This is defined in RFC 4880.
-> [homepage](https://openpgpjs.org/)
 
 
 ### openwhisk@3.17.0
