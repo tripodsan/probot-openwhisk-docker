@@ -167,7 +167,7 @@ The package is based on the dependency list of the original Node 6 image, with s
 > [homepage](https://github.com/parcel-bundler/parcel#readme)
 
 
-### probot@7.2.0
+### probot@7.3.1
 
 > 🤖 A framework for building GitHub Apps to automate and improve your workflow
 > [homepage](https://probot.github.io)
