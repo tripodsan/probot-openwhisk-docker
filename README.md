@@ -41,28 +41,28 @@ The package is based on the dependency list of the original Node 6 image, with s
 > [homepage](https://openpgpjs.org/)
 
 
-### async@2.6.1
-
-> Higher-order functions and common patterns for asynchronous code
-> [homepage](https://caolan.github.io/async/)
-
-
-### axios@0.18.0
-
-> Promise based HTTP client for the browser and node.js
-> [homepage](https://github.com/axios/axios)
-
-
 ### body-parser@1.18.2
 
 > Node.js body parsing middleware
 > [homepage](https://github.com/expressjs/body-parser#readme)
 
 
-### btoa@1.2.1
+### bunyan@1.8.12
 
-> btoa for Node.JS (it's a one-liner)
-> [homepage](https://git.coolaj86.com/coolaj86/btoa.js.git)
+> a JSON logging library for node.js services
+> [homepage](https://github.com/trentm/node-bunyan#readme)
+
+
+### bunyan-format@0.2.1
+
+> Writable stream that formats bunyan records that are piped into it.
+> [homepage](https://github.com/thlorenz/bunyan-format)
+
+
+### bunyan-loggly@1.3.5
+
+> A bunyan stream to transport logs to loggly
+> [homepage](https://github.com/MauriceButler/bunyan-loggly#readme)
 
 
 ### decompress@4.2.0
@@ -71,7 +71,7 @@ The package is based on the dependency list of the original Node 6 image, with s
 > [homepage](https://github.com/kevva/decompress#readme)
 
 
-### dotenv@6.0.0
+### dotenv@6.1.0
 
 > Loads environment variables from .env file
 > [homepage](https://github.com/motdotla/dotenv#readme)
@@ -89,19 +89,13 @@ The package is based on the dependency list of the original Node 6 image, with s
 > [homepage](https://github.com/jprichardson/node-fs-extra)
 
 
-### glob@7.1.2
+### glob@7.1.3
 
 > a little globber
 > [homepage](https://github.com/isaacs/node-glob#readme)
 
 
-### gm@1.23.1
-
-> GraphicsMagick and ImageMagick for node.js
-> [homepage](https://github.com/aheckmann/gm#readme)
-
-
-### iconv-lite@0.4.23
+### iconv-lite@0.4.24
 
 > Convert character encodings in pure javascript.
 > [homepage](https://github.com/ashtuchkin/iconv-lite)
@@ -113,19 +107,13 @@ The package is based on the dependency list of the original Node 6 image, with s
 > [homepage](https://github.com/nodeca/js-yaml)
 
 
-### lodash@4.17.10
+### lodash@4.17.11
 
 > Lodash modular utilities.
 > [homepage](https://lodash.com/)
 
 
-### merge@1.2.0
-
-> Merge multiple objects into one, optionally creating a new cloned object. Similar to the jQuery.extend but more flexible. Works in Node.js and the browser.
-> [homepage](https://github.com/yeikos/js.merge)
-
-
-### mime-types@2.1.19
+### mime-types@2.1.21
 
 > The ultimate javascript content-type utility.
 > [homepage](https://github.com/jshttp/mime-types#readme)
@@ -137,34 +125,10 @@ The package is based on the dependency list of the original Node 6 image, with s
 > [homepage](http://momentjs.com)
 
 
-### mustache@2.3.2
-
-> Logic-less {{mustache}} templates with JavaScript
-> [homepage](https://github.com/janl/mustache.js)
-
-
-### nodemailer@4.6.8
-
-> Easy as cake e-mail sending from your Node.js applications
-> [homepage](https://nodemailer.com/)
-
-
-### oauth2-server@2.4.1
-
-> Complete, compliant and well tested module for implementing an OAuth2 Server/Provider with express in node.js
-> [homepage](https://github.com/thomseddon/node-oauth2-server#readme)
-
-
-### openwhisk@3.17.0
+### openwhisk@3.18.0
 
 > JavaScript client library for the OpenWhisk platform
 > [homepage](https://github.com/openwhisk/openwhisk-client-js#readme)
-
-
-### parcel-bundler@1.9.7
-
-> Blazing fast, zero configuration web application bundler
-> [homepage](https://github.com/parcel-bundler/parcel#readme)
 
 
 ### probot@7.3.1
@@ -203,7 +167,7 @@ The package is based on the dependency list of the original Node 6 image, with s
 > [homepage](https://github.com/request/request-promise#readme)
 
 
-### semver@5.5.1
+### semver@5.6.0
 
 > The semantic version parser used by npm.
 > [homepage](https://github.com/npm/node-semver#readme)
@@ -227,12 +191,6 @@ The package is based on the dependency list of the original Node 6 image, with s
 > [homepage](https://github.com/Automattic/socket.io-client#readme)
 
 
-### superagent@3.8.3
-
-> elegant & feature rich browser / node HTTP with a fluent API
-> [homepage](https://github.com/visionmedia/superagent#readme)
-
-
 ### tmp@0.0.31
 
 > Temporary file and directory creator
@@ -251,6 +209,18 @@ The package is based on the dependency list of the original Node 6 image, with s
 > [homepage](http://github.com/chriso/validator.js)
 
 
+### winston@3.1.0
+
+> A logger for just about everything.
+> [homepage](https://github.com/winstonjs/winston#readme)
+
+
+### winston-loggly-bulk@2.0.3
+
+> A Loggly transport for winston
+> [homepage](https://github.com/loggly/winston-loggly-bulk#readme)
+
+
 ### ws@1.1.5
 
 > Simple to use, blazing fast and thoroughly tested websocket client and server for Node.js
@@ -261,12 +231,6 @@ The package is based on the dependency list of the original Node 6 image, with s
 
 > Simple XML to JavaScript object converter.
 > [homepage](https://github.com/Leonidas-from-XIV/node-xml2js)
-
-
-### xmlhttprequest@1.8.0
-
-> XMLHttpRequest for Node
-> [homepage](https://github.com/driverdan/node-XMLHttpRequest#readme)
 
 
 ### yauzl@2.10.0
