@@ -1,6 +1,6 @@
 #!/bin/sh
 
-TAG=tripodsan/probot-ow-nodejs8:latest
+TAG=tripodsan/probot-ow-nodejs10:latest
 
 # ensure logged in
 docker login

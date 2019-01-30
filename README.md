@@ -35,13 +35,19 @@ The package is based on the dependency list of the original Node 6 image, with s
 ### Dependencies
 <!-- the list below is automatically generated during the build -->
 
+### @tripod/bunyan-syslog@0.3.2
+
+> Syslog Stream for Bunyan
+> [homepage](https://github.com/tripodsan/node-bunyan-syslog#readme)
+
+
 ### @tripod/openpgp@4.1.2
 
 > OpenPGP.js is a Javascript implementation of the OpenPGP protocol. This is defined in RFC 4880.
 > [homepage](https://openpgpjs.org/)
 
 
-### body-parser@1.18.2
+### body-parser@1.18.3
 
 > Node.js body parsing middleware
 > [homepage](https://github.com/expressjs/body-parser#readme)
@@ -65,6 +71,12 @@ The package is based on the dependency list of the original Node 6 image, with s
 > [homepage](https://github.com/MauriceButler/bunyan-loggly#readme)
 
 
+### cls-hooked@4.2.2
+
+> CLS using AsynWrap instead of async-listener - Node >= 4.7.0
+> [homepage](https://github.com/jeff-lewis/cls-hooked#readme)
+
+
 ### decompress@4.2.0
 
 > Extracting archives made easy
@@ -77,7 +89,7 @@ The package is based on the dependency list of the original Node 6 image, with s
 > [homepage](https://github.com/motdotla/dotenv#readme)
 
 
-### express@4.16.2
+### express@4.16.4
 
 > Fast, unopinionated, minimalist web framework
 > [homepage](http://expressjs.com/)
@@ -119,7 +131,7 @@ The package is based on the dependency list of the original Node 6 image, with s
 > [homepage](https://github.com/jshttp/mime-types#readme)
 
 
-### moment@2.22.2
+### moment@2.17.0
 
 > Parse, validate, manipulate, and display dates
 > [homepage](http://momentjs.com)
@@ -143,13 +155,13 @@ The package is based on the dependency list of the original Node 6 image, with s
 > [homepage](https://github.com/probot/commands)
 
 
-### process@0.11.10
+### process@0.11.9
 
 > process information for node.js and browsers
 > [homepage](https://github.com/shtylman/node-process#readme)
 
 
-### pug@2.0.3
+### pug@2.0.0
 
 > A clean, whitespace-sensitive template language for writing HTML
 > [homepage](https://pugjs.org)
@@ -221,13 +233,19 @@ The package is based on the dependency list of the original Node 6 image, with s
 > [homepage](https://github.com/loggly/winston-loggly-bulk#readme)
 
 
-### ws@1.1.5
+### winston-papertrail@1.0.5
 
-> Simple to use, blazing fast and thoroughly tested websocket client and server for Node.js
-> [homepage](https://github.com/websockets/ws)
+> A Papertrail transport for winston
+> [homepage](https://github.com/kenperkins/winston-papertrail#readme)
 
 
-### xml2js@0.4.19
+### ws@1.1.1
+
+> simple to use, blazing fast and thoroughly tested websocket client, server and console for node.js, up-to-date against RFC-6455
+> [homepage](https://github.com/websockets/ws#readme)
+
+
+### xml2js@0.4.17
 
 > Simple XML to JavaScript object converter.
 > [homepage](https://github.com/Leonidas-from-XIV/node-xml2js)
